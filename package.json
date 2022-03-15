@@ -1,6 +1,6 @@
 {
-  "name": "pdfmake",
-  "version": "0.1.71",
+  "name": "@tegonal/pdfmake",
+  "version": "0.1.71-metadata-tegonal",
   "description": "Client/server side PDF printing in pure JavaScript",
   "main": "src/printer.js",
   "browser": "build/pdfmake.js",
@@ -70,5 +70,6 @@
         "tests"
       ]
     }
-  }
+  },
+  "publishConfig": {"registry": "https://nexus.tegonal.com/repository/npm-hosted/"}
 }
